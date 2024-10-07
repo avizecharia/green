@@ -17,7 +17,7 @@ const logout = async (req,res) => {
     }
 }
 
-model.exports = {
+module.exports = {
     login,
     logout
 }
