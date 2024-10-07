@@ -1,42 +1,42 @@
-const { model } = require("mongoose");
-
 const createPoll = async (req, res) => {
-  try {
-  } catch (err) {
-    console.log(err);
-  }
-};
-const getNotifications = async (req, res) => {
-  try {
-  } catch (err) {
-    console.log(err);
-  }
-};
-const getPollById = async (req, res) => {
-  try {
-  } catch (err) {
-    console.log(err);
-  }
-};
+    try {
+        res.send("plcasdcnbhbcs")
+    } catch (err) {}
+  };
+  
+  const getNotifications = async (req, res) => {
+    try {
+        res.send("plcasdcnbhbcs")
+        
+    } catch (err) {}
+  };
+  
+  const getPollById = async (req, res) => {
+    try {
+        res.send("plcasdcnbhbcs")
 
-const reply = async (req, res) => {
-  try {
-  } catch (err) {
-    console.log(err);
-  }
-};
+    } catch (err) {}
+  };
+  
+  const reply = async (req, res) => {
+    try {
+        res.send("plcasdcnbhbcs")
 
-const deletePoll = async (req, res) => {
-  try {
-  } catch (err) {
-    console.log(err);
-  }
-};
+    } catch (err) {}
+  };
+  
+  const deletePoll = async (req, res) => {
+    try {
+        res.send("plcasdcnbhbcs")
 
-module.exports = {
-  createPoll,
-  getNotifications,
-  getPollById,
-  reply,
-  deletePoll,
-};
+    } catch (err) {}
+  };
+  
+  module.exports = {
+    createPoll,
+    getNotifications,
+    getPollById,
+    reply,
+    deletePoll
+  };
+  
