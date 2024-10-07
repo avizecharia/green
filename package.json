@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "nodemon green"
+=======
+    "start": "nodemon app"
+>>>>>>> 8643634203b065bea5e6fec3cacb5cbe7b655c43
   },
   "keywords": [],
   "author": "",
