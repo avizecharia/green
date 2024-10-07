@@ -1,1 +1,10 @@
-console.log("i'm running 😝")
+const exp = require('express')
+const dotenv = require('dotenv')
+const app = exp()
+dotenv.config()
+const port = process.env.PORT || 1415
+app.use(exp.json())
+app.use('/auth',require('./routers/authRouter.js'))
+app.use('/user',require('./routers/userRouter.js'))
+app.use('/greenEye',require('./routers/greenEyeRouter.js'))
+app.listen(port,() => console.log(`server running on port ${port}`))
