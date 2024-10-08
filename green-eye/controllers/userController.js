@@ -2,11 +2,7 @@ const { createUser } = require("../services/userService");
 
 const register = async (req, res) => {
   try {
-    console.log("plllllllllllllllllllllllll");
-    
     await createUser(req.body);
-    console.log("plllllllllllllllllllllllll");
-
     res.status(201).json({
       msg: "user created",
     });
